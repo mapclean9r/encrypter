@@ -6,7 +6,7 @@ public class Main {
 
         System.out.println(crypt);
         System.out.println("original  -> "+password);
-        System.out.println("encrypted -> "+n.enCrypt(password));
+        System.out.println("encrypted -> "+n.encrypt(password));
 
     }
 }

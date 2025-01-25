@@ -11,7 +11,7 @@ public class Encrypter {
         this.splitter = uniqueSplitter;
     }
 
-    public String enCrypt(String word) {
+    public String encrypt(String word) {
         StringBuilder bonusString = new StringBuilder();
         bonusString.append(splitter);
 
